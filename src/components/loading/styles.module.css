@@ -1,0 +1,22 @@
+.loader {
+  position: absolute;
+  top: 50%;
+  left: 55%;
+  translate: translateY(-50%);
+  border: 10px solid #f3f3f3;
+  border-top: 10px solid #907bff;
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  animation: spin 1s linear infinite;
+  z-index: -1;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

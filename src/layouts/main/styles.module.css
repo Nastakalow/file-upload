@@ -1,0 +1,17 @@
+.mainWrapper {
+  width: calc(100vw - 316px);
+  margin-left: auto;
+  margin-top: 100px;
+  padding-top: 50px;
+  box-sizing: border-box;
+}
+
+.popupWrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 999;
+}

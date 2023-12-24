@@ -1,0 +1,9 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  color: var(--white);
+  background-color: #161616;
+}

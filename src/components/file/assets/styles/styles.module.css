@@ -1,0 +1,24 @@
+.fileList {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--space-l) var(--space-xxxl);
+  box-sizing: border-box;
+  margin-bottom: var(--space-l);
+  cursor: pointer;
+}
+
+.item {
+  font-size: var(--font-s);
+  width: 200px;
+  line-height: 1.1;
+  padding-right: var(--space-xxl);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.icon {
+  width: 32px;
+  height: 32px;
+}

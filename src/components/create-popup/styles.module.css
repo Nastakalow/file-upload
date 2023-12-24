@@ -1,0 +1,54 @@
+.popupWrapper {
+  font-family: "Poppins", sans-serif;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 40%;
+  padding: var(--space-xxl) var(--space-xl) var(--space-xl) var(--space-xl);
+  border-radius: 8px;
+  background: var(--midnight-blue);
+  z-index: 99999;
+}
+
+.title {
+  color: var(--white);
+  font-size: var(--font-xxl);
+  margin-bottom: var(--space-xxl);
+}
+
+.formWrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.formWrapper > input,
+.textarea {
+  padding: var(--space-m);
+  font-size: var(--font-m);
+  border: 1px solid rgba(255, 255, 255, 0.38);
+  border-radius: var(--border-radius-m);
+  color: var(--white);
+  background: transparent;
+}
+
+.titleInput {
+  margin: var(--space-xl) 0;
+}
+
+.errMessage {
+  color: var(--input-error-color);
+  font-size: var(--font-xs);
+  margin-top: var(--space-m);
+}
+
+.textarea {
+  margin-bottom: var(--space-xxxl);
+  outline: none;
+}
+
+.createBtn {
+  color: var(--dark-gray) !important;
+  background-color: #fff !important;
+  cursor: pointer;
+}

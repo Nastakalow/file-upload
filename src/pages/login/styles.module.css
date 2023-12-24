@@ -1,0 +1,13 @@
+.loginWrapper {
+  margin: var(--space-xxxl) auto 0 auto;
+  width: 45%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.title {
+  font-size: var(--font-xxl);
+  margin-bottom: var(--space-xxl);
+  font-weight: 500;
+}
