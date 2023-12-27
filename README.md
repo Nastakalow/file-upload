@@ -1,5 +1,5 @@
 <div align="center" id="top"> 
-   <img src="./public/logo.svg" alt="Ingress Logo" />
+   <img src="./public/vite.svg" alt="Logo" />
 </div>
   
 &#xa0;
@@ -20,3 +20,13 @@ $ npm install
 $ npm run dev
 
 ```
+
+&#xa0;
+
+#### This project utilizes Alfresco for managing document storage and collaboration.
+
+## Dependencies
+
+- [Alfresco](https://www.alfresco.com/): Open-source platform for document management and collaboration.
+
+## [Demo record](https://drive.google.com/file/d/1agNEcKH-grPjRxnrSoF6Exwj9FPB4TUX/view?usp=sharing)

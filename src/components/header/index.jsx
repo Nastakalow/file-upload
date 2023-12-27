@@ -43,7 +43,7 @@ function Header({ setIsPopupOpen }) {
     <header className={styles.header}>
       <div className={styles.logoWrapper}>
         <img className={styles.logoImg} src={logo} alt="Logo" />
-        <h1 className={styles.logoText}>Ingress / Task</h1>
+        <h1 className={styles.logoText}>File Upload</h1>
       </div>
 
       <AddFile setIsPopupOpen={setIsPopupOpen} />

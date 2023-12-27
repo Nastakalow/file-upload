@@ -1,5 +1,5 @@
 {
-  "name": "ingress_task",
+  "name": "file_upload",
   "private": true,
   "version": "0.0.0",
   "type": "module",
